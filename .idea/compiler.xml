@@ -8,7 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="homework2" />
+        <module name="homework3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="homework3" target="8" />
+      <module name="homework3 (1) (org.devschool)" target="8" />
+      <module name="Session-3" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
