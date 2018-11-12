@@ -14,7 +14,7 @@ public class JsonService {
         TransactionDto[] array = new TransactionDto[transactionDtos.size()];
         array = transactionDtos.toArray(array);
         try {
-            objectMapper.writeValue(file, array);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(file, array);
         } catch (IOException e) {
             e.printStackTrace();
         }
