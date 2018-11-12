@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da9cf87-6a92-471c-a351-31fe5e2822b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2/target/classes/composition/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/homework2/target/classes/composition/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/dto/TransactionDtoTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/dto/TransactionDtoTransformer.class" afterDir="false" />
-    </list>
+    <list default="true" id="4da9cf87-6a92-471c-a351-31fe5e2822b5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/homework2-module/target/" />
@@ -44,7 +38,7 @@
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="54" />
-          <entry key="json" value="7" />
+          <entry key="json" value="8" />
           <entry key="txt" value="4" />
           <entry key="xml" value="25" />
         </counts>
@@ -53,7 +47,7 @@
         <counts>
           <entry key="CSV" value="4" />
           <entry key="JAVA" value="54" />
-          <entry key="JSON" value="7" />
+          <entry key="JSON" value="8" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="25" />
         </counts>
@@ -93,21 +87,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="289">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -140,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="20" column="121" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
+            <state relative-caret-position="34">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,6 +282,33 @@
               <item name="homework3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +341,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541982455973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541983373265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -479,13 +488,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67936000" />
+    <option name="totallyTimeSpent" value="68518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -747,16 +756,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/exceptions/DevSchoolException.java" />
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/test.txt" />
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -774,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3366" />
@@ -794,11 +783,6 @@
         <state relative-caret-position="-68">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.csv">
@@ -835,10 +819,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="121" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
+        <state relative-caret-position="34">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

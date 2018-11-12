@@ -14,15 +14,15 @@ public class TransactionDtoTransformer {
                 Map<String, Integer> hashMap = new HashMap<>();
                 hashMap.put(bean.getItem(), 1);
                 if (transactionDtos.size() > 0) {
-                    boolean checkTransaction = false;
+                    boolean checkTransactionId = false;
                     for (TransactionDto transaction : transactionDtos) {
                         if (transaction.getTransactionId().equals(bean.getTransaction())) {
                             transaction.setItemsSummary(
                                     updateItemSummary(transaction.getItemsSummary(), bean.getItem()));
-                            checkTransaction = true;
+                            checkTransactionId = true;
                         }
                     }
-                    if (!checkTransaction)
+                    if (!checkTransactionId)
                         transactionDtos.add(new TransactionDto(bean.getTransaction(), bean.getDate(), hashMap));
                 } else
                     transactionDtos.add(new TransactionDto(bean.getTransaction(), bean.getDate(), hashMap));
