@@ -11,8 +11,9 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class CsvService {
-    public List<CsvBean> readCsv(String path) {
-        try(Reader reader = Files.newBufferedReader(Paths.get(path))) {
+    public List<CsvBean> readCsv(String path, String fileName) {
+        String filePath = path + "/" + fileName;
+        try(Reader reader = Files.newBufferedReader(Paths.get(filePath))) {
             CsvToBean<CsvBean> csvBeans = new CsvToBeanBuilder<CsvBean>(reader)
                     .withType(CsvBean.class)
                     .withIgnoreLeadingWhiteSpace(true)

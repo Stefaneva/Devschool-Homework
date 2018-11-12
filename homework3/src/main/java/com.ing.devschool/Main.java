@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        final String csvResourcePath = "./homework3/src/main/resources/bakery-transactions.csv";
+        final String csvResourcePath = "./homework3/src/main/resources";
         final String jsonResourcePath = "./homework3/src/main/resources";
 
         CsvService csvService = new CsvService();
@@ -19,7 +19,7 @@ public class Main {
         TransactionDtoTransformer transformer = new TransactionDtoTransformer();
 
 
-        List<CsvBean> csvBeans = csvService.readCsv(csvResourcePath);
+        List<CsvBean> csvBeans = csvService.readCsv(csvResourcePath, "bakery-transactions.csv");
         List<TransactionDto> transactionDtos = transformer.csvBeansToTransactionDtos(csvBeans);
         if (transactionDtos != null) {
             Collections.sort(transactionDtos);
