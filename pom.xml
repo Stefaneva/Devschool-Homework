@@ -23,6 +23,9 @@
     <modules>
         <module>homework2</module>
         <module>homework3</module>
+        <module>homework4</module>
+        <module>homework4-java8</module>
+        <module>homework4_java8</module>
     </modules>
 
     <properties>

@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/homework3/pom.xml" />
+        <option value="$PROJECT_DIR$/homework4-java8/pom.xml" />
       </set>
     </option>
   </component>
