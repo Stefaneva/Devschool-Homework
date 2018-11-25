@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da9cf87-6a92-471c-a351-31fe5e2822b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/homework3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/homework3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/target/classes/com/ing/devschool/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/target/classes/com/ing/devschool/bean/CsvBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework4_java8/target/classes/Java8Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/homework4_java8/target/classes/Java8Assignment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/dto/TransactionDtoTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/JsonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/JsonService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,37 +58,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="csv" value="6" />
+          <entry key="csv" value="7" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="109" />
-          <entry key="json" value="10" />
+          <entry key="java" value="123" />
+          <entry key="json" value="13" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="CSV" value="5" />
-          <entry key="JAVA" value="109" />
-          <entry key="JSON" value="10" />
+          <entry key="CSV" value="6" />
+          <entry key="JAVA" value="123" />
+          <entry key="JSON" value="13" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="java" value="28692" />
-          <entry key="xml" value="42" />
+          <entry key="java" value="31830" />
+          <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28692" />
+          <entry key="JAVA" value="31830" />
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="XML" value="42" />
+          <entry key="XML" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -87,11 +99,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="-357">
+              <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -114,6 +174,7 @@
     <findStrings>
       <find>roomHouse</find>
       <find>module</find>
+      <find>predicat</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Eva\IdeaProjects\ING-Homework-1\homework2\src\main\java\burger</dir>
@@ -125,10 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework2/src/main/java/polymorphism/Car.java" />
-        <option value="$PROJECT_DIR$/homework2/src/main/java/polymorphism/Audi.java" />
-        <option value="$PROJECT_DIR$/homework2/src/main/java/polymorphism/BMW.java" />
-        <option value="$PROJECT_DIR$/homework2/src/main/java/polymorphism/VW.java" />
         <option value="$PROJECT_DIR$/homework2/src/main/java/polymorphism/Main.java" />
         <option value="$PROJECT_DIR$/homework2/src/main/java/burger/Addition.java" />
         <option value="$PROJECT_DIR$/homework2/src/main/java/burger/BaseBurger.java" />
@@ -139,15 +196,11 @@
         <option value="$PROJECT_DIR$/Session-3/pom.xml" />
         <option value="E:/ING-BackEnd/Session-3/pom.xml" />
         <option value="$PROJECT_DIR$/homework3/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/CsvDto.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/exceptions/DevSchoolException.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDto.java" />
         <option value="$PROJECT_DIR$/homework2/src/main/java/composition/Main.java" />
-        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" />
-        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" />
-        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/pizza/PizzaCrust.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/pizza/Pizza.java" />
@@ -175,7 +228,15 @@
         <option value="$PROJECT_DIR$/homework4/src/main/java/pizzastore/CustomerService.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/enums/PizzaExtra.java" />
         <option value="$PROJECT_DIR$/homework4-java8/pom.xml" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/JsonBean.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" />
         <option value="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkFormat.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" />
       </list>
     </option>
   </component>
@@ -232,20 +293,85 @@
             <path>
               <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
-              <item name="homework4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
-              <item name="homework4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
-              <item name="homework4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+              <item name="args" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.ing.devschool" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ING-Homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +429,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543162331063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543187562279" />
     <property name="last_opened_file_path" value="E:/ING-BackEnd/Session5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -313,12 +439,12 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eva\IdeaProjects\ING-Homework-1\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Eva\IdeaProjects\ING-Homework-1" />
       <recent name="C:\Users\Eva\IdeaProjects\ING-Homework-1\homework1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eva\IdeaProjects\ING-Homework-1\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java8Assignment">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Java8Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java8Assignment" />
       <module name="homework4_java8" />
@@ -400,9 +526,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Java8Assignment" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber java.All Features in: Session-3" />
       </list>
@@ -441,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127057000" />
+    <option name="totallyTimeSpent" value="139286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,6 +580,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -464,14 +591,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" weight="0.3295302" />
@@ -493,52 +620,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/ING-BackEnd/Session-3/Session-3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/ING-BackEnd/Session-3/src/main/java/com/ing/devschool/HomeWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ING-BackEnd/Session-3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="36" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bakery-transactions.csv" />
-    <entry file="file://$PROJECT_DIR$/homework2/src/main/java/composition/Furniture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/opencsv/opencsv/4.3.2/opencsv-4.3.2-sources.jar!/com/opencsv/bean/CsvToBeanBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -589,52 +670,10 @@
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -789,9 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework4_java8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework4/src/main/java/pizzastore/PizzaStoreFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -802,13 +838,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="24" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/JsonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+        <state relative-caret-position="-357">
+          <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="106465" column="3" selection-start-line="106465" selection-start-column="3" selection-end-line="106465" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-from-json.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework4_java8/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>

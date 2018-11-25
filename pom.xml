@@ -24,7 +24,6 @@
         <module>homework2</module>
         <module>homework3</module>
         <module>homework4</module>
-        <module>homework4-java8</module>
         <module>homework4_java8</module>
     </modules>
 
@@ -34,6 +33,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <lombok.version>1.18.4</lombok.version>
+        <jcommander.version>1.72</jcommander.version>
     </properties>
 
     <dependencies>
@@ -53,7 +53,12 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>${jcommander.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

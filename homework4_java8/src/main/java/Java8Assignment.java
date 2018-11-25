@@ -233,7 +233,7 @@ public class Java8Assignment {
     }
 
     private static void optional(List<Integer> numbers) {
-        System.out.println(numbers.stream().filter(i -> i % 121 == 0).findFirst().orElse(-1));
+        System.out.println(numbers.stream().filter(i -> i % 121 == 0 && i % 2 == 1).findFirst().orElse(-1));
 //        System.out.println(numbers.stream().limit(10).filter(i -> i % 121 ==0 && i != 0).findFirst().orElse(-1));
     }
 }
