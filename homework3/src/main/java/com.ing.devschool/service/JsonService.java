@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JsonService {
-    public void writeJsonToFile(List<TransactionDto> transactionDtos, String filePath, String fileName) {
-        File file = new File(filePath + "/" + fileName);
+    public void writeJsonToFile(List<TransactionDto> transactionDtos, String filePath) {
+        File file = new File(filePath);
         ObjectMapper objectMapper = new ObjectMapper();
         TransactionDto[] array = new TransactionDto[transactionDtos.size()];
         array = transactionDtos.toArray(array);
@@ -24,8 +24,8 @@ public class JsonService {
         }
     }
 
-    public List<JsonBean> readJsonFile(String filePath, String fileName) {
-        File file = new File(filePath + "/" + fileName);
+    public List<JsonBean> readJsonFile(String filePath) {
+        File file = new File(filePath);
         ObjectMapper objectMapper = new ObjectMapper();
         List<JsonBean> jsonBeans = null;
         try {

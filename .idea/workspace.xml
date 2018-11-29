@@ -3,21 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4da9cf87-6a92-471c-a351-31fe5e2822b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/homework3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/homework3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/target/classes/com/ing/devschool/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/target/classes/com/ing/devschool/bean/CsvBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/homework3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework4_java8/target/classes/Java8Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/homework4_java8/target/classes/Java8Assignment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/dto/TransactionDtoTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/CsvService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/CsvService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/JsonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework3/com/ing/devschool/service/JsonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +52,8 @@
           <entry key="csv" value="7" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="123" />
-          <entry key="json" value="13" />
+          <entry key="java" value="124" />
+          <entry key="json" value="16" />
           <entry key="txt" value="4" />
           <entry key="xml" value="35" />
         </counts>
@@ -71,8 +62,8 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSV" value="6" />
-          <entry key="JAVA" value="123" />
-          <entry key="JSON" value="13" />
+          <entry key="JAVA" value="124" />
+          <entry key="JSON" value="16" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="35" />
         </counts>
@@ -80,13 +71,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="java" value="31830" />
+          <entry key="java" value="32058" />
           <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31830" />
+          <entry key="JAVA" value="32058" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="44" />
         </counts>
@@ -99,11 +90,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="106465" column="3" selection-start-line="106465" selection-start-column="3" selection-end-line="106465" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/JsonBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework3/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -111,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,32 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -201,7 +216,6 @@
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/exceptions/DevSchoolException.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDto.java" />
         <option value="$PROJECT_DIR$/homework2/src/main/java/composition/Main.java" />
-        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/pizza/PizzaCrust.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/pizza/Pizza.java" />
         <option value="$PROJECT_DIR$/homework4/src/main/java/enums/PizzaExtras.java" />
@@ -232,10 +246,11 @@
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDtoTransformer.java" />
         <option value="$PROJECT_DIR$/homework4_java8/src/main/java/Java8Assignment.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/TransactionDtoTransformer.java" />
-        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkFormat.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java" />
+        <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java" />
         <option value="$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java" />
       </list>
     </option>
@@ -410,12 +425,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ING-Homework-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +448,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543187562279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543535419859" />
     <property name="last_opened_file_path" value="E:/ING-BackEnd/Session5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -459,23 +478,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main-InputParams">
     <configuration name="Java8Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java8Assignment" />
       <module name="homework4_java8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ing.devschool.Main" />
-      <module name="homework3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ing.devschool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -487,12 +493,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="composition.Main" />
-      <module name="homework2" />
+    <configuration name="Main-InputParams" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ing.devschool.Main" />
+      <module name="homework3" />
+      <option name="PROGRAM_PARAMETERS" value="--input-path ./homework3/src/main/resources/bakery-transactions.csv --input-format csv --output-path ./homework3/src/main/resources/bakery-summary.json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="composition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ing.devschool.Main" />
+      <module name="homework3" />
+      <option name="PROGRAM_PARAMETERS" value="--input-path ./homework3/src/main/resources/bakery-transactions.csv --input-format csv --output-path ./homework3/src/main/resources/bakery-summary.json" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ing.devschool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -518,18 +539,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.All Features in: Session-3" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main-InputParams" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Java8Assignment" />
+      <item itemvalue="Cucumber java.All Features in: Session-3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main-InputParams" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Java8Assignment" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber java.All Features in: Session-3" />
       </list>
     </recent_temporary>
@@ -567,7 +588,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139286000" />
+    <option name="totallyTimeSpent" value="140194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +603,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -601,7 +622,6 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -611,6 +631,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="9" side_tool="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,9 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-example.json" />
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/dto/TransactionDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -762,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,21 +839,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.csv">
       <provider editor-type-id="text-editor" />
@@ -854,15 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/CsvBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="24" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/JsonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="306">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -883,20 +870,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="106465" column="3" selection-start-line="106465" selection-start-column="3" selection-end-line="106465" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args.java" />
     <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary-from-json.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -909,15 +883,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -930,7 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/args/HomeWorkParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -938,17 +912,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/CsvService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        <state relative-caret-position="85">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/bean/JsonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-summary.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/resources/bakery-transactions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="106465" column="3" selection-start-line="106465" selection-start-column="3" selection-end-line="106465" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/service/JsonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework3/src/main/java/com.ing.devschool/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="111" />
         </state>
       </provider>
     </entry>

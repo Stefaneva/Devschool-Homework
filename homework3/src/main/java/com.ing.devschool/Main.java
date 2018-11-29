@@ -18,12 +18,21 @@ public class Main {
     private TransactionDtoTransformer transformer = new TransactionDtoTransformer();
 
     public static void main(String[] args) {
-        final String resourcePath = "./homework3/src/main/resources";
+//      Use these as args
+        final String csvFilePath = "./homework3/src/main/resources/bakery-transactions.csv";
+        final String csvTranscationsFilePath = "./homework3/src/main/resources/bakery-summary.json";
+        final String jsonFilePath = "./homework3/src/main/resources/bakery-transactions.json";
+        final String jsonTransactionsFilePath = "./homework3/src/main/resources/bakery-summary-from-json.json";
+//      Example: --input-path ./homework3/src/main/resources/bakery-transactions.csv
+//               --input-format csv
+//               --output-path ./homework3/src/main/resources/bakery-summary.json
 
         HomeWorkParams inputParams = new HomeWorkParams();
-        inputParams.setInputFilePath(resourcePath);
-        inputParams.setOutputFilePath(resourcePath);
-        inputParams.setInputFormat(HomeWorkFormat.CSV);
+//        inputParams.setInputFilePath(csvFilePath);
+//        inputParams.setOutputFilePath(csvTranscationsFilePath);
+//        inputParams.setInputFormat(HomeWorkFormat.CSV);
+//        inputParams.setInputFilePath(jsonFilePath);
+//        inputParams.setOutputFilePath(jsonTransactionsFilePath);
 //        inputParams.setInputFormat(HomeWorkFormat.JSON);
         inputParams.setHelp(false);
 
@@ -46,19 +55,19 @@ public class Main {
         System.out.println(inputParams);
         List<TransactionDto> transactionDtos;
         if (inputParams.getInputFormat() == HomeWorkFormat.CSV) {
-            List<CsvBean> csvBeans = csvService.readCsv(inputParams.getOutputFilePath(), "bakery-transactions.csv");
+            List<CsvBean> csvBeans = csvService.readCsv(inputParams.getInputFilePath());
             transactionDtos = transformer.csvBeansToTransactionDtos(csvBeans);
             if (transactionDtos != null) {
                 Collections.sort(transactionDtos);
                 transactionDtos.forEach(System.out::println);
-                jsonService.writeJsonToFile(transactionDtos, inputParams.getOutputFilePath(), "bakery-summary.json");
+                jsonService.writeJsonToFile(transactionDtos, inputParams.getOutputFilePath());
             }
         }
         else {
-            List<JsonBean> jsonBeans = jsonService.readJsonFile(inputParams.getOutputFilePath(),"bakery-transactions.json");
+            List<JsonBean> jsonBeans = jsonService.readJsonFile(inputParams.getInputFilePath());
             transactionDtos = transformer.jsonBeansToTransactionDtos(jsonBeans);
             Collections.sort(transactionDtos);
-            jsonService.writeJsonToFile(transactionDtos, inputParams.getOutputFilePath(), "bakery-summary-from-json.json");
+            jsonService.writeJsonToFile(transactionDtos, inputParams.getOutputFilePath());
         }
     }
 }
