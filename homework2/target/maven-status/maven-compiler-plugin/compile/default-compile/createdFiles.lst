@@ -1,0 +1,15 @@
+composition\Furniture.class
+composition\FurnitureDurability.class
+polymorphism\Car.class
+burger\BaseBurger.class
+composition\RoomComponent.class
+polymorphism\BMW.class
+burger\Addition.class
+burger\HealthyBurger.class
+polymorphism\Main.class
+composition\Room.class
+polymorphism\Audi.class
+burger\DeluxeBurger.class
+polymorphism\VW.class
+burger\Main.class
+composition\Main.class

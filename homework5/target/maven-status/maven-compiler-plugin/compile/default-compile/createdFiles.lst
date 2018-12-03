@@ -1,0 +1,14 @@
+com\websystique\spring\domain\Bond.class
+com\websystique\spring\domain\Employee.class
+com\websystique\spring\domain\Ferari.class
+com\websystique\spring\domain\License.class
+com\websystique\spring\AppMain.class
+com\websystique\spring\domain\Performer.class
+com\websystique\spring\domain\Application.class
+com\websystique\spring\config\AppConfig.class
+com\websystique\spring\domain\ApplicationUser.class
+com\websystique\spring\domain\Instrument.class
+com\websystique\spring\domain\Car.class
+com\websystique\spring\domain\Driver.class
+com\websystique\spring\domain\Mustang.class
+com\websystique\spring\domain\EmployeeAddress.class

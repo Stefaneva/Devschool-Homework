@@ -25,6 +25,7 @@
         <module>homework3</module>
         <module>homework4</module>
         <module>homework4_java8</module>
+        <module>homework5</module>
     </modules>
 
     <properties>
@@ -59,6 +60,23 @@
             <artifactId>jcommander</artifactId>
             <version>${jcommander.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.openrdf.sesame</groupId>
+            <artifactId>sesame-rio-api</artifactId>
+            <version>2.7.2</version>
+        </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <type>pom</type>
+                <version>2.0.2.RELEASE</version>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

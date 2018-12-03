@@ -1,14 +1,11 @@
 package com.ing.devschool.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ing.devschool.bean.CsvBean;
 import com.ing.devschool.bean.JsonBean;
 import com.ing.devschool.dto.TransactionDto;
-import jdk.internal.org.objectweb.asm.TypeReference;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class JsonService {
